@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">KenCorpus Field Tool 2.1</string>
+    <string name="browsefile">Choose Audio File</string>
+    <string name="uploadmetadata">Upload Metadata</string>
+    <string name="title_home">Metadata List</string>
+    <string name="title_dashboard">Audio Manager</string>
+    <string name="title_notifications">Text Manager</string>
+
+    <string name="buttonlabelmetadataprofile">Preview Metadata and attach File </string>
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>-</item>
+
+    </string-array>
+    <string-array name="agegroup">
+        <item>Select Age Group</item>
+        <item>Pre-Primary</item>
+        <item>Primary</item>
+        <item>Teen Age</item>
+        <item>Middle Age</item>
+        <item>Seniors</item>
+
+    </string-array>
+
+<string name="title_activity_metadata_profile">Metadata Profile File Uploader</string>
+    </resources>

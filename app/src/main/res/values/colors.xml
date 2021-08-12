@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fd7f71</color>
+    <color name="colorPrimaryDark">#fb7f73</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorKencorpus">#fb7f73</color>
+    <color name="colorKencorpusText" >#000000</color>
+    <color name="colorerrorKencorpusText" >#bf170b</color>
+</resources>

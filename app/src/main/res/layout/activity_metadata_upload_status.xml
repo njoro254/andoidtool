@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/tvuploadprofilemetadatafileicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:src="@drawable/kcorpus" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvuploadprofilemetadataintervieweename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorKencorpusText"
+            android:text="Interviewee name" />
+        <TextView
+            android:id="@+id/tvuploadgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorKencorpusText"
+            android:text="Interviewee Gender" />
+        <TextView
+            android:id="@+id/tvuploadprofilemetadata_interviewee_agegroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D64530"
+            android:text="Interviewee Age Group" />
+
+
+        <TextView
+            android:id="@+id/tvuploadprofilemetadatainterviewlanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="language"
+            android:textColor="@color/colorKencorpusText"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/tvuploadprofilemetadatainterviewlanguagecode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="language code"
+            android:textColor="#D64530"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        <TextView
+            android:id="@+id/tvuploadprofilemetadatalocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="location"
+            android:textColor="@color/colorKencorpusText"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        <TextView
+            android:id="@+id/tvuploadprofilemetadatatopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic"
+            android:textColor="@color/colorKencorpus"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/tvuploadprofilemetadataCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="@color/colorKencorpus"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvuplodprofilemetadata_datasource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorKencorpusText"
+            android:text="Data source" />
+        <TextView
+            android:id="@+id/tvuploadprofilemetadata_datasource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D64530"
+            android:text="Data Source" />
+        <TextView
+            android:id="@+id/tvprofilemetadatadate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D64530"
+            android:text="Profile metadata date" />
+        <TextView
+            android:id="@+id/tvuplodprofilemetadata_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D64530"
+            android:text="Success_fails" />
+        <TextView
+            android:id="@+id/tvuploadprofilemetadatresearchassistant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D64530"
+            android:text="Uploaded by: Assistant name" />
+        <TextView
+            android:id="@+id/tvaddnewrec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D64530"
+            android:text="Add New Record" />
+
+    </LinearLayout>
+
+</LinearLayout>
